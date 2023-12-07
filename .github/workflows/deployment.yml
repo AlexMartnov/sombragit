@@ -23,10 +23,13 @@ jobs:
           cache: 'npm'
 
       - name: Run CI command
-        run: npm ci
+        run: npm install
 
       - name: Check linting
         run: npm run lint
+
+      - name: Run the tests
+        run: npm run test
 
       - name: Build
         run: npm run build
