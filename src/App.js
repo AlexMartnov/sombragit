@@ -1,5 +1,6 @@
 import OleksandrPhoto from './Oleksandr.jpg';
 import OlegPhoto from './Legarde_portrait4.webp'
+import DmytroPhoto from './maaaksymiw.jpg'
 import './App.css';
 
 function App() {
@@ -14,6 +15,11 @@ function App() {
           <p>Panchenko Oleg</p>
           <p>tech Lead</p>
           <img src={OlegPhoto} alt="Text"/>
+        </div>
+        <div>
+          <p>Maksymiv Dmytro</p>
+          <p>QA</p>
+          <img src={DmytroPhoto} alt="Text"/>
         </div>
       </div>
   );
