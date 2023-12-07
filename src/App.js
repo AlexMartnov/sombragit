@@ -1,4 +1,5 @@
 import OleksandrPhoto from './Oleksandr.jpg';
+import HannaPhoto from './images.jpg';
 import OlegPhoto from './Legarde_portrait4.webp'
 
 import DmytroPhoto from './maaaksymiw.jpg'
@@ -23,6 +24,11 @@ function App() {
         </div>
         <div>
 
+          <p>Mudrak Hanna</p>
+          <p>Project Manager</p>
+          <img src={HannaPhoto} alt="Text"/>
+
+
           <p>Maksymiv Dmytro</p>
           <p>QA</p>
           <img src={DmytroPhoto} alt="Text"/>
@@ -30,6 +36,7 @@ function App() {
           <p>Palenha Roman</p>
           <p>Full stack developer</p>
           <img src={RomanPhoto} alt="Text"/>
+
 
         </div>
       </div>
