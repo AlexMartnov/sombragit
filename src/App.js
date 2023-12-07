@@ -18,8 +18,8 @@ function App() {
           <img src={OleksandrPhoto} alt="Text"/>
         </div>
         <div>
-          <p>Panchenko Oleg</p>
-          <p>tech Lead</p>
+          <p>Panchenko Oleg111111111111</p>
+          <p>tech Lead1111111111</p>
           <img src={OlegPhoto} alt="Text"/>
         </div>
         <div>
